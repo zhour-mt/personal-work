@@ -1,0 +1,35 @@
+
+body {
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  background-color: black;
+}
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+button{
+  background-color: white;
+}
+
+button:disabled {
+  background-color: white
+}
+
+* { box-sizing: border-box; }
+
+.menu { width: 25%;
+  float: left;}
+
